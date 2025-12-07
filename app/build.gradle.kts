@@ -5,11 +5,11 @@ plugins {
 
 android {
     namespace = "com.example.zd3_2_voroshilov"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.zd3_2_voroshilov"
-        minSdk = 21
+        minSdk = 23
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -35,10 +35,14 @@ android {
 }
 
 dependencies {
+    implementation("com.google.code.gson:gson:2.11.0")
+    implementation("com.squareup.picasso:picasso:2.8")
+    implementation("com.android.volley:volley:1.2.1")
     implementation("androidx.leanback:leanback:1.0.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("androidx.media2:media2-widget:1.2.1")
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.constraintlayout:constraintlayout:2.2.1")
     implementation("com.google.android.material:material:1.13.0")
+    implementation("androidx.activity:activity:1.12.1")
 }

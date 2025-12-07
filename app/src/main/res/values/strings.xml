@@ -8,4 +8,5 @@
     <string name="selection_films">Подборка фильмов</string>
     <string name="input_help">Введите название</string>
     <string name="search">Найти</string>
+    <string name="filter">Добавить фильтр:</string>
 </resources>
